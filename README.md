@@ -7,7 +7,7 @@ Asessing the corrosion on piling sheet according to NEN and estimating distance 
 These classes for corrosion were based on [Digigids](https://digigids.hetwaterschapshuis.nl/index.php?p=gallery). Grass and rock were included as there was a large amount of it in the raw data-set.
 
 After the assesment the images that have been labeled with "Metal" will be sent through an Object detection algorithm that was made using YOLOv4. This algorithm was trained to detect: the **bumps** of a piling sheet and a **reference** object. The reference object was something that was seen on most piling sheet in which we know the actual dimension. The horizontal distance between the bumps was calculated and using the reference object we converted the pixel distance into actual distance.
-<div style="width:60px ; height:60px">
+
 ![Test](Yolo_result.png)
 
 ## Data
