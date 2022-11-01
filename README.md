@@ -6,7 +6,7 @@ Asessing the corrosion on piling sheet according to NEN and estimating distance 
 
 These classes for corrosion were based on [Digigids](https://digigids.hetwaterschapshuis.nl/index.php?album=Bijzondere-constructies-%282019%29/damwand%20of%20beschoeiing/conditie). Grass and rock were included as there was a large amount of it in the raw data-set. See the image below for application of Digigids classes on piling sheet.
 ![Classes](Digiclasses.png)
-In the four class data-set, we combined as:
+In the four class data-set, we combined the classes as:
 1. Good. Combination of Good and Acceptable.
 2. Bad. Combination of Moderate and Bad.
 
